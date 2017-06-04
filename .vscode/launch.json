@@ -1,0 +1,26 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Launch",
+            "type": "mono",
+            "request": "launch",
+            "program": "${workspaceRoot}/program.exe",
+            "args": [],
+            "cwd": "${workspaceRoot}",
+            "preLaunchTask": "",
+            "runtimeExecutable": null,
+            "env": {},
+            "externalConsole": false,
+            "packageName": "com.xamarin.debugexample.x_a_debug",
+            "debugServer": 4711
+        },
+        {
+            "name": "Attach",
+            "type": "mono",
+            "request": "attach",
+            "address": "localhost",
+            "port": 55555
+        }
+    ]
+}
