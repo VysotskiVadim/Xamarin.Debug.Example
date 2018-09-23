@@ -3,19 +3,9 @@
     "configurations": [
         {
             "name": "Launch",
-            "type": "mono",
+            "type": "xamarin",
             "request": "launch",
-            "args": [],
-            "preLaunchTask": "install",
-            "packageName": "com.xamarin.debugexample.x_a_debug",
-            "debugServer": 4711
-        },
-        {
-            "name": "Attach",
-            "type": "mono",
-            "request": "attach",
-            "address": "localhost",
-            "port": 55555
+            "packageName": "com.xamarin.debugexample.x_a_debug"
         }
     ]
 }
